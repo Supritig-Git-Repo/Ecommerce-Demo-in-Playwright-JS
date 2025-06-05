@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-demo-in-playwright-js",
+  "version": "1.0.0",
+  "description": "A collection of real-world Playwright use cases demonstrating practical automation scenarios for Ecommerce website",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supritig-Git-Repo/Ecommerce-Demo-in-Playwright-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Supritig-Git-Repo/Ecommerce-Demo-in-Playwright-JS/issues"
+  },
+  "homepage": "https://github.com/Supritig-Git-Repo/Ecommerce-Demo-in-Playwright-JS#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29",
+    "exceljs": "^4.4.0"
+  }
+}

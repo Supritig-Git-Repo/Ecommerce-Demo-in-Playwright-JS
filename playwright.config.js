@@ -14,6 +14,11 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
+  timeout: 30*1000,
+  expect:{
+    timeout: 40*1000
+  },
+  
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -23,14 +28,23 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+ reporter: [
+    ['list'],                      // Console reporter for local dev
+    ['html', { outputFolder: 'playwright-report', open: 'never' }], // HTML report
+    ['junit', { outputFile: 'results/results.xml' }],               // JUnit xml for CI
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
+    video: 'retain-on-failure',   // Record video only for failed tests
+    screenshot: 'only-on-failure',// Take screenshot only on failure
+     launchOptions: {
+      slowMo: 50,                  // Slow down actions by 50ms for visibility (optional)
+    },
   },
 
   /* Configure projects for major browsers */
@@ -38,6 +52,10 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
+    },
+
+    {name:'iPhone 13',
+      use:{ ...devices['iPhone 13'] },
     },
 
     {
@@ -69,7 +87,10 @@ export default defineConfig({
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },
+    
   ],
+  outputDir: 'test-results/',
+  
 
   /* Run your local dev server before starting the tests */
   // webServer: {

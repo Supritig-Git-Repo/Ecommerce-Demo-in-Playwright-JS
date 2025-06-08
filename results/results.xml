@@ -1,12 +1,12 @@
-<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="18.83598">
-<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="chromium" tests="2" failures="0" skipped="0" time="4.599" errors="0">
-<testcase name="has title" classname="example.spec.js" time="1.506">
+<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="24.577024">
+<testsuite name="example.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="chromium" tests="2" failures="0" skipped="0" time="4.763" errors="0">
+<testcase name="has title" classname="example.spec.js" time="2.214">
 </testcase>
-<testcase name="get started link" classname="example.spec.js" time="3.093">
+<testcase name="get started link" classname="example.spec.js" time="2.549">
 </testcase>
 </testsuite>
-<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.075" errors="0">
-<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.075">
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.109" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.109">
 <system-out>
 <![CDATA[[36m<ref *1>[39m Cell {
   _row: Row {
@@ -83,14 +83,14 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="iPhone 13" tests="2" failures="0" skipped="0" time="6.303" errors="0">
-<testcase name="has title" classname="example.spec.js" time="2.55">
+<testsuite name="example.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="iPhone 13" tests="2" failures="0" skipped="0" time="6.78" errors="0">
+<testcase name="has title" classname="example.spec.js" time="3.205">
 </testcase>
-<testcase name="get started link" classname="example.spec.js" time="3.753">
+<testcase name="get started link" classname="example.spec.js" time="3.575">
 </testcase>
 </testsuite>
-<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="iPhone 13" tests="1" failures="0" skipped="0" time="0.118" errors="0">
-<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.118">
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="iPhone 13" tests="1" failures="0" skipped="0" time="0.055" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.055">
 <system-out>
 <![CDATA[[36m<ref *1>[39m Cell {
   _row: Row {
@@ -167,14 +167,14 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="firefox" tests="2" failures="0" skipped="0" time="9.948" errors="0">
-<testcase name="has title" classname="example.spec.js" time="4.266">
+<testsuite name="example.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="firefox" tests="2" failures="0" skipped="0" time="23.66" errors="0">
+<testcase name="has title" classname="example.spec.js" time="13.505">
 </testcase>
-<testcase name="get started link" classname="example.spec.js" time="5.682">
+<testcase name="get started link" classname="example.spec.js" time="10.155">
 </testcase>
 </testsuite>
-<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="firefox" tests="1" failures="0" skipped="0" time="0.145" errors="0">
-<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.145">
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="firefox" tests="1" failures="0" skipped="0" time="0.194" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.194">
 <system-out>
 <![CDATA[[36m<ref *1>[39m Cell {
   _row: Row {
@@ -251,14 +251,14 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="webkit" tests="2" failures="0" skipped="0" time="8.106" errors="0">
-<testcase name="has title" classname="example.spec.js" time="3.247">
+<testsuite name="example.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="webkit" tests="2" failures="0" skipped="0" time="14.553" errors="0">
+<testcase name="has title" classname="example.spec.js" time="6.685">
 </testcase>
-<testcase name="get started link" classname="example.spec.js" time="4.859">
+<testcase name="get started link" classname="example.spec.js" time="7.868">
 </testcase>
 </testsuite>
-<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="webkit" tests="1" failures="0" skipped="0" time="0.162" errors="0">
-<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.162">
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-08T19:58:07.020Z" hostname="webkit" tests="1" failures="0" skipped="0" time="0.198" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.198">
 <system-out>
 <![CDATA[[36m<ref *1>[39m Cell {
   _row: Row {

@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A collection of real-world Playwright use cases demonstrating practical automation scenarios for Ecommerce website",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+
+     "test": "npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Supritig-Git-Repo/Ecommerce-Demo-in-Playwright-JS.git"

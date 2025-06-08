@@ -73,8 +73,8 @@ class excelUtils {
 
     }
 
-    uploadExcel(){
+    
         
-    }
+    
 }
 module.exports = { excelUtils }

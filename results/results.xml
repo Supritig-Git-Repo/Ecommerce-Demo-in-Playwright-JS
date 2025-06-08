@@ -1,0 +1,338 @@
+<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="18.83598">
+<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="chromium" tests="2" failures="0" skipped="0" time="4.599" errors="0">
+<testcase name="has title" classname="example.spec.js" time="1.506">
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="3.093">
+</testcase>
+</testsuite>
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.075" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.075">
+<system-out>
+<![CDATA[[36m<ref *1>[39m Cell {
+  _row: Row {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m2[39m,
+    _cells: [
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Circular *1][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m
+    ],
+    style: {},
+    _outlineLevel: [33m0[39m,
+    _hidden: [90mundefined[39m
+  },
+  _column: Column {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m3[39m,
+    style: {},
+    _outlineLevel: [33m0[39m
+  },
+  _address: [32m'C2'[39m,
+  _value: StringValue { model: { address: [32m'C2'[39m, value: [32m'128GB'[39m, type: [33m3[39m } },
+  style: {},
+  _mergeCount: [33m0[39m
+}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="iPhone 13" tests="2" failures="0" skipped="0" time="6.303" errors="0">
+<testcase name="has title" classname="example.spec.js" time="2.55">
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="3.753">
+</testcase>
+</testsuite>
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="iPhone 13" tests="1" failures="0" skipped="0" time="0.118" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.118">
+<system-out>
+<![CDATA[[36m<ref *1>[39m Cell {
+  _row: Row {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m2[39m,
+    _cells: [
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Circular *1][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m
+    ],
+    style: {},
+    _outlineLevel: [33m0[39m,
+    _hidden: [90mundefined[39m
+  },
+  _column: Column {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m3[39m,
+    style: {},
+    _outlineLevel: [33m0[39m
+  },
+  _address: [32m'C2'[39m,
+  _value: StringValue { model: { address: [32m'C2'[39m, value: [32m'128GB'[39m, type: [33m3[39m } },
+  style: {},
+  _mergeCount: [33m0[39m
+}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="firefox" tests="2" failures="0" skipped="0" time="9.948" errors="0">
+<testcase name="has title" classname="example.spec.js" time="4.266">
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="5.682">
+</testcase>
+</testsuite>
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="firefox" tests="1" failures="0" skipped="0" time="0.145" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.145">
+<system-out>
+<![CDATA[[36m<ref *1>[39m Cell {
+  _row: Row {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m2[39m,
+    _cells: [
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Circular *1][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m
+    ],
+    style: {},
+    _outlineLevel: [33m0[39m,
+    _hidden: [90mundefined[39m
+  },
+  _column: Column {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m3[39m,
+    style: {},
+    _outlineLevel: [33m0[39m
+  },
+  _address: [32m'C2'[39m,
+  _value: StringValue { model: { address: [32m'C2'[39m, value: [32m'128GB'[39m, type: [33m3[39m } },
+  style: {},
+  _mergeCount: [33m0[39m
+}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="webkit" tests="2" failures="0" skipped="0" time="8.106" errors="0">
+<testcase name="has title" classname="example.spec.js" time="3.247">
+</testcase>
+<testcase name="get started link" classname="example.spec.js" time="4.859">
+</testcase>
+</testsuite>
+<testsuite name="excelManipulations.spec.js" timestamp="2025-06-07T13:46:59.482Z" hostname="webkit" tests="1" failures="0" skipped="0" time="0.162" errors="0">
+<testcase name="excel implementation" classname="excelManipulations.spec.js" time="0.162">
+<system-out>
+<![CDATA[[36m<ref *1>[39m Cell {
+  _row: Row {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m2[39m,
+    _cells: [
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Circular *1][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m,
+      [36m[Cell][39m
+    ],
+    style: {},
+    _outlineLevel: [33m0[39m,
+    _hidden: [90mundefined[39m
+  },
+  _column: Column {
+    _worksheet: Worksheet {
+      _workbook: [36m[Workbook][39m,
+      id: [33m1[39m,
+      orderNo: [33m0[39m,
+      _name: [32m'Inventory'[39m,
+      state: [32m'visible'[39m,
+      _rows: [36m[Array][39m,
+      _columns: [36m[Array][39m,
+      _keys: {},
+      _merges: {},
+      rowBreaks: [],
+      properties: {},
+      pageSetup: [36m[Object][39m,
+      headerFooter: [1mnull[22m,
+      dataValidations: [36m[DataValidations][39m,
+      views: [36m[Array][39m,
+      autoFilter: [90mundefined[39m,
+      _media: [],
+      sheetProtection: [90mundefined[39m,
+      tables: {},
+      conditionalFormattings: []
+    },
+    _number: [33m3[39m,
+    style: {},
+    _outlineLevel: [33m0[39m
+  },
+  _address: [32m'C2'[39m,
+  _value: StringValue { model: { address: [32m'C2'[39m, value: [32m'128GB'[39m, type: [33m3[39m } },
+  style: {},
+  _mergeCount: [33m0[39m
+}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

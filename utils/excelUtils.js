@@ -46,6 +46,7 @@ class excelUtils {
                 if (cell.value === verifyValue) {
                     console.log(cell.value)
                 }
+                
             })
 
         })
